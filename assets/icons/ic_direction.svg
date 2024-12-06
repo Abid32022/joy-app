@@ -1,0 +1,14 @@
+<svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="direction">
+<path id="Rectangle 2753" d="M39.5977 18.3848L24.0413 2.82843C22.4792 1.26633 19.9466 1.26633 18.3845 2.82843L2.82811 18.3848C1.26602 19.9469 1.26602 22.4795 2.82811 24.0416L18.3845 39.598C19.9466 41.1601 22.4792 41.1601 24.0413 39.598L39.5977 24.0416C41.1598 22.4795 41.1598 19.9469 39.5977 18.3848Z" fill="#C7112B"/>
+<g id="split-up">
+<path id="Line 1072" d="M21.2129 33.2148V24.2148" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Line 1073" d="M29.2129 16.2148L24.2129 21.2148" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Line 1074" d="M13.2129 16.2148L21.2129 24.2148" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Line 1075" d="M13.2129 21.2148V16.2148" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Line 1076" d="M18.2129 16.2148H13.2129" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Line 1077" d="M24.2129 16.2148H29.2129" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Line 1078" d="M29.2129 21.2148V16.2148" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>
