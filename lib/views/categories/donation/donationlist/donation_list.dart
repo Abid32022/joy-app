@@ -45,7 +45,6 @@ class _DonationListState extends State<DonationList> {
                   },
                   child: Container(
                     width: double.infinity,
-                    height: MySize.scaleFactorHeight * 390,
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(MySize.size8),
                         color: AppColors.whiteColorFF,

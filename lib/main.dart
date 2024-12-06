@@ -41,12 +41,13 @@ class MyApp extends StatelessWidget {
 
       ],
       child: GetMaterialApp(
+        title: 'Joy App',
         theme: ThemeData(
           // scaffoldBackgroundColor: Colors.white
         ),
         debugShowCheckedModeBanner: false,
 
-        home: MedicalHospital(),
+        home: SplasScreen(),
 
 
 

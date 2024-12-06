@@ -90,11 +90,11 @@ class _HospitalLocationState extends State<HospitalLocation> with TickerProvider
         Expanded(
           child: TabBarView(controller: _tabController, children: [
             HostpitalLocationTab(),
-            Text("data"),
-            Text("data"),
-            Text("data"),
-            Text("data"),
-            Text("data"),
+            HostpitalLocationTab(),
+            HostpitalLocationTab(),
+            HostpitalLocationTab(),
+            HostpitalLocationTab(),
+            HostpitalLocationTab(),
           ]),
         )
       ]),

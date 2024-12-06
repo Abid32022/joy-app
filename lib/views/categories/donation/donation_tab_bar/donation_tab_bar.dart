@@ -91,11 +91,11 @@ class _DonationTabBarState extends State<DonationTabBar>
         Expanded(
           child: TabBarView(controller: _tabController, children: [
             DonationList(),
-            Text("data"),
-            Text("data"),
-            Text("data"),
-            Text("data"),
-            Text("data"),
+            DonationList(),
+            DonationList(),
+            DonationList(),
+            DonationList(),
+            DonationList(),
           ]),
         )
       ]),

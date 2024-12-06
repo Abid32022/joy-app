@@ -18,11 +18,12 @@ class _ParcelDashBoardState extends State<ParcelDashBoard> {
 
   int _currentIndex = 0;
   List Screen = [
-    Text("data"),
     ParcelDelivery(),
     ListingScreenn(),
-    Text("data"),
-    Text("data"),
+    ParcelDelivery(),
+    ListingScreenn(),
+    ParcelDelivery(),
+    ListingScreenn(),
   ];
   @override
   Widget build(BuildContext context) {

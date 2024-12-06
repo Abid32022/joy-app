@@ -118,6 +118,7 @@ class CreditCardWidget {
                 hintText: 'Enter Card Number',
                 bordercolor: AppColors.borderColorAD,
               ),
+              SizedBox(height: 10,),
               Row(
                 children: [
                   SizedBox(width: MySize.scaleFactorWidth * 172,
@@ -126,6 +127,7 @@ class CreditCardWidget {
                     hintText: 'MM/ YY',
                     bordercolor: AppColors.borderColorAD,
                   ),),
+                  SizedBox(width: MySize.size15,),
                   SizedBox(width: MySize.scaleFactorWidth * 172,
                   child: customTextField(
                     minLines: 1,
@@ -145,6 +147,9 @@ class CreditCardWidget {
                   
                 }, icon: SvgPicture.asset(AppConstant.ic_arrow_down, color: AppColors.borderColorAD,height: MySize.size12,)),
                 suffix: true
+              ),
+              SizedBox(
+                height: MySize.size10,
               ),
               customTextField(
                 ontap: (){},

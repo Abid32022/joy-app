@@ -66,7 +66,7 @@ class _DeliveryRestaurantListState extends State<DeliveryRestaurantList> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                         customTextMedium(title: "Want to update?",fontSize: MySize.size16,fontWeight: FontWeight.w500),
-                        customTextRegular(title: "You currently selected Islamabad",fontSize: MySize.size16,fontWeight: FontWeight.w400,color: AppColors.subTitleColor37),
+                        customTextRegular(title: "You currently selected Islamabad",fontSize: MySize.size10,fontWeight: FontWeight.w400,color: AppColors.subTitleColor37),
                       ],)
                     ],)
                   ),

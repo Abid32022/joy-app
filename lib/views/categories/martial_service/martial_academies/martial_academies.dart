@@ -68,7 +68,7 @@ Widget buildMartialAcademyContainer(
                       fontWeight: FontWeight.w500),
                   customTextLight(
                       title: address,
-                      fontSize: MySize.size16,
+                      fontSize: MySize.size10,
                       fontWeight: FontWeight.w400,
                       textAlign: TextAlign.left),
                 ],
@@ -245,10 +245,78 @@ class _MartialAcademiesScreenState extends State<MartialAcademiesScreen>
                     ),
                   ),
                   Center(
-                    child: Text('Academies Content'),
+                    child: Padding(
+                      padding: EdgeInsets.only(top: MySize.size12),
+                      child: SingleChildScrollView(
+                        child: Column(
+                          children: [
+                            buildMartialAcademyContainer(
+                                context,
+                                AppConstant.ic_martial_image1,
+                                AppConstant.ic_martial_logo1,
+                                "Apex Martial Arts Academy",
+                                "76 St Maurices Road, Priest Hutton, \nUnited Kingdom, LA6 2YZ",
+                                item1,
+                                item2, () {
+                              _displayBottomSheet();
+                            }),
+                            SizedBox(
+                              height: MySize.size20,
+                            ),
+                            buildMartialAcademyContainer(
+                                context,
+                                AppConstant.ic_martial_image2,
+                                AppConstant.ic_martial_logo2,
+                                "Apex Martial Arts Academy",
+                                "76 St Maurices Road, Priest Hutton, \nUnited Kingdom, LA6 2YZ",
+                                item1,
+                                item2, () {
+                              _displayBottomSheet();
+                            }),
+                            SizedBox(
+                              height: MySize.size16,
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
                   ),
                   Center(
-                    child: Text('Studios Content'),
+                    child: Padding(
+                      padding: EdgeInsets.only(top: MySize.size12),
+                      child: SingleChildScrollView(
+                        child: Column(
+                          children: [
+                            buildMartialAcademyContainer(
+                                context,
+                                AppConstant.ic_martial_image1,
+                                AppConstant.ic_martial_logo1,
+                                "Apex Martial Arts Academy",
+                                "76 St Maurices Road, Priest Hutton, \nUnited Kingdom, LA6 2YZ",
+                                item1,
+                                item2, () {
+                              _displayBottomSheet();
+                            }),
+                            SizedBox(
+                              height: MySize.size20,
+                            ),
+                            buildMartialAcademyContainer(
+                                context,
+                                AppConstant.ic_martial_image2,
+                                AppConstant.ic_martial_logo2,
+                                "Apex Martial Arts Academy",
+                                "76 St Maurices Road, Priest Hutton, \nUnited Kingdom, LA6 2YZ",
+                                item1,
+                                item2, () {
+                              _displayBottomSheet();
+                            }),
+                            SizedBox(
+                              height: MySize.size16,
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
                   ),
                 ],
               ),

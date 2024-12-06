@@ -15,11 +15,11 @@ class DashBoard extends StatefulWidget {
 class _DashBoardState extends State<DashBoard> {
   int _currentIndex = 0;
   List Screen = [
-    Text("data"),
     LaunchedPadScreen(),
-    Text("data"),
-    Text("data"),
-    Text("data"),
+    LaunchedPadScreen(),
+    LaunchedPadScreen(),
+    LaunchedPadScreen(),
+    LaunchedPadScreen(),
   ];
   @override
   Widget build(BuildContext context) {

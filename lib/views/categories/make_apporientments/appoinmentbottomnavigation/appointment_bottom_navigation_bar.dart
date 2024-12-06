@@ -15,11 +15,11 @@ class AppointmentBottomNavigation extends StatefulWidget {
 class _AppointmentBottomNavigationState extends State<AppointmentBottomNavigation> {
   int _currentIndex = 0;
   List Screen = [
-    Text("data"),
     HospitalLocation(),
-    Text("data"),
-    Text("data"),
-    Text("data"),
+    HospitalLocation(),
+    HospitalLocation(),
+    HospitalLocation(),
+    HospitalLocation(),
   ];
   @override
   Widget build(BuildContext context) {
