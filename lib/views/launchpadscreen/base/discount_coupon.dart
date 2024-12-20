@@ -15,7 +15,7 @@ class PageViewContainer extends StatefulWidget {
 }
 
 class _PageViewContainerState extends State<PageViewContainer> {
-  CarouselController _carouselController = CarouselController();
+  // CarouselController _carouselController = CarouselController();
 
   int activeIndex = 0;
 
@@ -28,7 +28,7 @@ class _PageViewContainerState extends State<PageViewContainer> {
             height: 120,
             width: MediaQuery.of(context).size.width ,
             child: CarouselSlider.builder(
-              carouselController: _carouselController,
+              // carouselController: _carouselController,
               itemCount: 4,
               itemBuilder: (context, index, index2) {
                 return Container(
